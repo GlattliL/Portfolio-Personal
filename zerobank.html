@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Detalles del Proyecto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+
+        .project-container {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-title {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #2e67a0;
+        }
+
+        .project-image {
+            width: 100%;
+            height: auto;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            margin: 20px 0;
+        }
+
+        .project-description {
+            text-align: justify;
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="project-container">
+      
+        <h1 class="project-title">Zero Bank: Automatización de Pruebas con Cypress</h1>
+
+     
+        <img src="assets/zerobank.png" alt="Imagen del Proyecto" class="project-image">
+
+        <p class="project-description">
+            Este proyecto consiste en la automatización de pruebas de la aplicación web de Zero Bank utilizando Cypress, 
+            una herramienta de prueba end-to-end (E2E) que permite realizar pruebas funcionales de aplicaciones web de 
+            manera sencilla y efectiva.
+        </p>
+
+        <p class="project-description">
+            El código incluye una suite de pruebas que verifica la funcionalidad de la página de inicio de Zero Bank y 
+            simula una transferencia de fondos entre cuentas.
+        </p>
+
+        <img src="assets/zero bank (1).png" alt="Imagen del Proyecto" class="project-image">
+
+   
+        <ul class="project-description list-unstyled">
+            <li><strong>Validación de la Página de Inicio:</strong> Se comprueba que el logo y el título "Online Banking" sean visibles en la página de inicio.</li>
+            <li><strong>Prueba de Transferencia de Fondos:</strong> Se realiza el siguiente flujo:</li>
+            <ul>
+                <li>Acceso al sistema mediante el ingreso de un nombre de usuario y contraseña.</li>
+                <li>Selección de la opción de transferencia de fondos.</li>
+                <li>Llenado del formulario con datos de la transferencia, como el monto y la descripción.</li>
+                <li>Envío del formulario y verificación del mensaje de éxito que confirma la transferencia.</li>
+            </ul>
+        </ul>
+
+        
+        <img src="assets/zero bank (2).png" alt="Imagen del Proyecto" class="project-image">
+
+       
+        <p class="project-description">
+            Esta prueba se enfoca en verificar la correcta visualización de los elementos gráficos en la aplicación web 
+            de Zero Bank. A continuación se detalla el flujo de la prueba:
+        </p>
+
+        <ul class="project-description list-unstyled">
+            <li>Acceso a la Página de Inicio: La prueba inicia navegando a la URL de la aplicación.</li>
+            <li>Inicio de Sesión: Se simula el inicio de sesión mediante la interacción con el botón correspondiente y la introducción de credenciales de usuario.</li>
+            <li>Navegación a la Sección de Gráficos: Luego de iniciar sesión, se accede a la pestaña que muestra los gráficos de la cuenta.</li>
+            <li>Verificación de Elementos Gráficos: Se comprueba que el primer gráfico sea visible en la pantalla.</li>
+            <li>Interacción con Elementos Gráficos: Se realiza un clic en otro elemento gráfico para activar una acción.</li>
+            <li>Validación de la Ocultación de Elementos: Finalmente, se verifica que el primer gráfico ya no sea visible, lo que indica que la interacción ha tenido el efecto esperado.</li>
+        </ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
+
